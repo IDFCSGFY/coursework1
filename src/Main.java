@@ -1,10 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        Employee[] employees = new Employee[10];
-        employees[0] = new Employee("Васильев", "Василий", "Васильевич", 1, 70000);
-        employees[1] = new Employee("Петров", "Пётр", "Петрович", 2, 30000);
-        employees[2] = new Employee("Петров", "Владимир", "Петрович", 3, 40000);
-        employees[3] = new Employee("Петров", "Дмитрий", "Петрович", 2, 80000);
+        EmployeeBook employeeBook = new EmployeeBook();
 
         printAllData(employees);
         System.out.println("sumAllSalaries(employees) = " + sumAllSalaries(employees));
