@@ -66,6 +66,6 @@ public class Employee {
 
     @Override
     public String toString() {
-        return "ID: " + ID + " | " + String.join(" ", lastName, name, middleName) + ". Отдел: " + department + ". Зарплата: " + salary;
+        return "ID: " + ID + " | " + String.join(" ", lastName, name, middleName) + ". \t Отдел: " + department + ". \t Зарплата: " + salary;
     }
 }
